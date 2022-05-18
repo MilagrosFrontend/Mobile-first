@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman';
+}
+
+main {
+    min-width: 320px;
+}
+header {
+    width: 100%;
+    height: 335px;
+    min-width: 320px;
+    background: linear-gradient(208.83deg,#282623 16.69%,#f7931a 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .header-flechita {
+    background: url(./assets/icons/down-arrow.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header-logo {
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+}
+
+header .button-container {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    /*margin-top: 40px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .button-container a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.button-container {
+    position: absolute;
+    top: 315px;
+
+}
+/**********************************************SECTION ONE*********************************************/
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faf8f7;
+} 
+
+.section-one h2,p {
+    text-align: center;
+    /*margin: 20px 0; */
+}
+
+.section-one__title {
+    font-size: 2.5rem;
+    margin: 20px 0; 
+}
+ .section-one p {
+    font-size: 1.5rem;
+    opacity: 0.6;
+    margin: 20px 0;
+}
+
+.section-one .tables-container .tabla1  h2 {
+     color: rgb(238, 151, 1);
+     font-size: 2rem;
+} 
+
+.section-one table {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.section-one table tr td {
+   width: 50%;
+   height: 60px;
+   font-size: 1.6rem;
+   text-align: center;
+  /* opacity: 0.4; */
+  font-weight: bold;
+  color: rgb(97, 95, 95);
+}
+
+.section-one .top-left {
+    border-radius: 10px 0 0 0;
+}
+
+.section-one .top-right {
+    border-radius: 0 10px 0 0;
+}
+
+.section-one .bottom-left {
+    border-radius: 0 0 0 10px;
+}
+
+.section-one .bottom-right {
+    border-radius: 0 0 10px 0;
+}
+
+
+.section-one table .down {
+    background: url(./assets/icons/trending-down.svg);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.section-one table .up {
+    background: url(./assets/icons/trending-up.svg);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ .section-one table .texto-gris {
+    color: rgb(199, 196, 196);
+ }
+ 
+
+ .section-one .monedas-actualizado {
+     background-color: rgb(248, 203, 183);
+     width: 80%;
+     border-radius: 4px;
+     padding: 10px 0; 
+ }
+
+ .section-one .comisiones-actualizado {
+    background-color: rgb(112, 179, 218);
+     width: 80%;
+     border-radius: 4px;
+     padding: 10px 0; 
+ }
+
+ .section-one .tables-container .tabla2 h2 {
+    color: rgb(53, 143, 196);
+    font-size: 2rem;
+}
+/****************************************** SECTION-TWO *****************************************/
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525;
+}
+
+.section-two h2 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.section-two h4 {
+    color: rgb(145, 139, 139);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-two div {
+   background-color: #2e2e2d;
+   width: 90%;
+   height: 140px;
+   margin-bottom: 10px;
+   text-align: left;
+   border-radius: 5px;
+}
+
+.section-two .simb-reloj {
+    background: url(./assets/icons/clock.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.section-two .simb-ojo {
+    background: url(./assets/icons/eye.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.section-two .simb-cash {
+    background: url(./assets/icons/dollar-sign.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.section-two .simb-check {
+    background: url(./assets/icons/check-circle.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.section-two div h3 {
+    text-align: left;
+    color: white;
+    font-size: 1.5rem;
+}
+.section-two div p {
+    text-align: left;
+    color: rgb(97, 95, 95);
+    font-size: 1.2rem;
+    padding-right: 10px;
+} 
+
+.section-two div span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.section-two div h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.section-two div p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.section-two .container-batata {
+    background: url(./assets/icons/batata.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    bottom: 11px;
+}
+/****************************************** SECTION-THREE *****************************************/
+.section-three {
+    background: url(./assets/img/bitcoinbaby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.section-three h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    top: 70px;
+}
+/****************************************** SECTION-FOUR *****************************************/
+.section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 40px 0;  
+}
+
+.section-four h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-four h3:nth-child(2) {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(145, 139, 139);
+}
+
+.section-four .card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+
+.section-four .card div:nth-child(1) {
+    background-color: #f7931a;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.section-four .card div:nth-child(1) p {
+   margin: 0 auto;
+   padding: 10px;
+}
+/******************************************CARD***********************************/
+.section-four .card-precio p {
+    font-size: 5rem; 
+    font-weight: bold;  
+    margin-right: 10px;
+}
+
+.section-four .card-precio span {
+    font-size: 1.5rem;  
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+}
+.section-four .card > p {
+    color: rgb(145, 139, 139);
+    font-size: 0.9rem;
+    font-family: 'arial';
+   
+}
+.section-four .card h3 {
+    color: black;
+    font-size: 2rem;
+}
+
+.section-four .card button {
+    width: 80%;
+    height: 50px;
+    border: 2.5px solid #f7931a;
+    margin: 10px 0;
+    border-radius: 3px;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.section-four .card .flechita {
+    background: url(./assets/icons/orange-right-arrow.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px; 
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+/******************************************FOOTER*****************************************/
+footer {
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: #f7931a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li {
+    color: white;
+    font-size: 1.5rem;
+    list-style: none;
+    font-weight: bold;
+    line-height: 30px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/**********************************TESTEO*************************************************************/
+.section-four .cards-container {
+  display: flex;
+  /*justify-content: center;*/
+  width: 100%;  
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+ .section-four .card {
+    min-width: 170px;
+    max-width: 200px;
+    margin: 50px 10px;
+    scroll-snap-align: center;
+ }
+ /*******************************TABLAS*************************************************************/
+.section-one .tables-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.section-one .tabla {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 23px;
+    background-color: #faf7f8;
+}
+.section-one .tables-container .tabla td {
+    background-color: white;
+}
+.section-one .tables-container .tabla1 {
+    z-index: 3;
+}
+.section-one .tables-container .tabla2 {
+    z-index: 2;
+}
+
+.section-one .boton-funcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+.section-one .boton-funcion .flechita-tablas {
+    font-size:  2.2rem;
+}
+.section-one .celestito {
+background-color: transparent;
+   color: rgb(112, 179, 218);
+   border: 2px solid rgb(112, 179, 218);
+}
+.section-one .naranjita {
+    background-color: transparent;
+    color: #f7931a;
+    border: 2px solid #f7931a;
+}
+.section-one {
+    height: 850px;
+}
+.transicion {
+    opacity: 0;
+}
+/*************************************************************************************************/
+.section-two .blackcards-container {
+    height: auto;
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+/********************************************CARD 1****************************************/
+.section-four .cards-container .card1 /* card*/
+{
+    background-color: rgb(114, 114, 116);
+    border-radius: 20px;
+}
+
+.section-four .cards-container .card1 div:nth-child(1) /*Recomendado*/
+{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border: 1px solid black;
+}
+
+.section-four .cards-container .card1 button /*Escoger este*/
+{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.section-four .cards-container .card1 h3 /* Pago anual*/
+{
+    color: white;
+}
+
+.section-four .cards-container .card1 .card-precio p /*$99*/
+{
+    color: black;
+    opacity: 1;
+}
+
+.section-four .cards-container .card1 > p /*Ahorras*/
+{
+    color: white;
+    padding: 0 10px;
+}
+/********************************************CARD 2****************************************/
+.section-four .cards-container .card2 /* card*/
+{
+    background-color: rgb(33, 85, 197);
+    border-radius: 20px;
+}
+
+.section-four .cards-container .card2 div:nth-child(1) /*Recomendado*/
+{
+  border: 1px solid black;
+  background-color: black;
+
+}
+
+.section-four .cards-container .card2 button /*Escoger este*/
+{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.section-four .cards-container .card2 h3 /* Pago anual*/
+{
+    color: white;
+}
+
+.section-four .cards-container .card2 .card-precio p /*$99*/
+{
+    color: white;
+}
+
+.section-four .cards-container .card2 > p /*Ahorras*/
+{
+    padding: 0 10px;
+    color: white;
+}
+/********************************************CARD 3****************************************/
+.section-four .cards-container .card3 /* card*/
+{
+   background-color: black;
+   border: 1px solid #f7931a;
+   border-radius: 20px;
+}
+
+.section-four .cards-container .card3 div:nth-child(1) /*Recomendado*/
+{
+  color: white;
+  background-color: #f7931a;
+  border: 1px solid black;
+}
+
+.section-four .cards-container .card3 button /*Escoger este*/
+{
+   border: 2px solid white;
+   border-radius: 10px;
+}
+
+.section-four .cards-container .card3 h3 /* Pago anual*/
+{
+    color: white;
+}
+
+.section-four .cards-container .card3 .card-precio p /*$99*/
+{
+    color: white;
+}
+
+.section-four .cards-container .card3 > p /*Ahorras*/
+{
+   color: white;
+   padding: 0 10px;
+}
+
+/*************************************************MEDIA QUERIES!!!!***************************************/
+@media (min-width:600px) { 
+    .section-two .blackcards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center; 
+    }
+    .section-one .tables-container {
+        display: flex;
+    }
+    .section-one .tabla {
+        position: static;
+    }
+    .section-one .boton-funcion {
+        display: none;
+    }
+    .section-three {
+        height: 400px;
+    }
+    .section-three h2 {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 660px) {
+    .section-four .cards-container {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 800px) {
+    header h1 {
+        font-size: 2.8rem;
+        margin-top: 70px;
+    }
+    header p {
+        font-size: 1.7rem;
+    }
+    .section-two .blackcards-container div {
+        height: 160px;
+        max-width: 350px;
+    }
+    .section-two .blackcards-container div p {
+        font-size: 1.5rem;
+    }
+}
